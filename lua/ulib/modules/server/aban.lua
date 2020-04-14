@@ -1,11 +1,11 @@
 ABAN = {}
-ABAN.Version = 20170725
+ABAN.Version = 20200414
 
 ABAN.Config = {}
 ABAN.Config.Bantime = 1440 -- The time (in minutes) to ban someone for leaving with slays. Default: 1440 (1 day)
 ABAN.Config.Multiply = true -- Whether or not to multiply this time by how many slays a person has
 ABAN.Config.NotifyAll = true -- Whether or not to let everyone know a person has been automatically banned.
-ABAN.Config.ExemptAdmins = false -- Whether or not to exempt (ignore) admins.
+ABAN.Config.ExemptAdmins = true -- Whether or not to exempt (ignore) admins.
 ABAN.Config.LowestAdminGroup = "operator" -- In your inheritance chain, this is the lowest rank that you'd like to be exempted if ExemptAdmins is true.
 ABAN.Config.MinSlays = 1 -- The minimum amount of slays a player must have to be automatically banned.
 ABAN.Config.Prefix = "[Autoban] " -- Prefix to automated message (i.e. PREFIX .. *player* has been banned")
