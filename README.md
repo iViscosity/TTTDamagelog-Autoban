@@ -1,18 +1,23 @@
 # TTTDamagelog-Autoban
 A small Autoban addon for TTT Damagelogs
 
-
 # Author Information #
 - Name: Spencer "iViscosity" Murphy
 - E-mail: iviscositygaming@gmail.com
 
 # Add-on Information #
 - Name: TTTDamagelogs Autoban
-- Description: Automatically bans (or adds slays to) players after leaving the server with slays.
+- Description: Automatically bans players after leaving the server with slays.
+
+# Dependencies #
+[TTT Damagelogs](https://github.com/Tommy228/tttdamagelogs)
+[ULib](https://github.com/TeamUlysses/ulib)
+
+# Configuration #
+All configuration can be done in `/addons/TTTDamagelog-Autoban-master/lua/ulib/modules/server/aban.lua`.
 
 # Installation #  
-First, make sure you have [TTTDamagelogs](https://github.com/Tommy228/TTTDamagelogs) installed correctly on your server.
+Shut down your server. Click the "Clone or download" then "Download ZIP". Extract the ZIP into somewhere (on your Desktop or someplace easily accessible). Take the TTTDamagelog-Autoban-master and upload it into your server's `addons` folder.
 
-Shut down your server. Click the "Clone or download" then "Download ZIP". Extract the ZIP into somewhere (on your Desktop or someplace easily accessible). Take the TTTDamagelog-Autoban-master and upload it into your server's `addons` folder. Once complete, configure any settings in `addons/TTTDamagelog-Autoban-master/lua/autorun/server/aban.lua` to your liking, save and start up your server.
-
-_**Note: If the addon does not work, try renaming `TTTDamagelog-Autoban-master` to `tttdamagelog-autoban-master`**_
+# Note for servers running on Linux #
+Make sure you change the root folder `TTTDamagelog-Autoban-master` to something all lowercase (for example, `tttdamagelog-autoban-master`)
