@@ -18,7 +18,33 @@ A small Autoban addon for TTT Damagelogs
 All configuration can be done in `/addons/TTTDamagelog-Autoban-master/lua/ulib/modules/server/aban.lua`.
 
 # Installation #  
-Shut down your server. Click the "Clone or download" then "Download ZIP". Extract the ZIP into somewhere (on your Desktop or someplace easily accessible). Take the TTTDamagelog-Autoban-master and upload it into your server's `addons` folder.
-
-# Note for servers running on Linux #
-Make sure you change the root folder `TTTDamagelog-Autoban-master` to something all lowercase (for example, `tttdamagelog-autoban-master`)
+Shut down your server. [Download the latest version](https://github.com/iViscosity/TTTDamagelog-Autoban/releases/download/v1.0/tttdamagelog-autoban.zip). Extract the ZIP into somewhere (on your Desktop or someplace easily accessible). Take the root folder `tttdamagelog-autoban` and upload it into your server's `addons` folder. You should have a file structure like:
+```
+├───tttdamagelog-autoban
+│   └───lua
+│       └───ulib
+│           └───modules
+│               ├───client
+│               └───server
+├───tttdamagelogs-3.1.0
+│   ├───lua
+│   │   ├───autorun
+│   │   └───damagelogs
+│   │       ├───client
+│   │       │   └───tabs
+│   │       ├───config
+│   │       ├───server
+│   │       └───shared
+│   │           ├───events
+│   │           └───lang
+│   └───sound
+│       └───damagelogs
+├───ulib
+│   └───lua
+│       ├───autorun
+│       └───ulib
+│           ├───client
+│           ├───modules
+│           ├───server
+│           └───shared
+```
