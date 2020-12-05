@@ -1,10 +1,6 @@
 # TTTDamagelog-Autoban
 A small Autoban addon for TTT Damagelogs
 
-# Author Information #
-- Name: Spencer "iViscosity" Murphy
-- E-mail: iviscositygaming@gmail.com
-
 # Add-on Information #
 - Name: TTTDamagelogs Autoban
 - Description: Automatically bans players after leaving the server with slays.
